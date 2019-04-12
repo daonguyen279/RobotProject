@@ -1,6 +1,6 @@
 *** Variables ***
 ${BROWSER}    Chrome
-${ROOT}       https://petshop.vn/
+${ROOT}       http://localhost/wordpress/wordpress/wp-admin
 
 
 *** Settings ***
