@@ -1,9 +1,18 @@
 *** Settings ***
-Resource                                 ../Resources/Setup.robot
-Test setup                               Setup
-Test teardown                            Teardown
+Resource	../Resources/Setup.robot
+Resource    ../Actions/LoginActions/LoginAction.robot
+Resource    ../Actions/LoginActions/CheckLogin.robot
+Test setup	    Setup
+Test teardown	Teardown
+
+
+*** Variables ***
+${USERNAME}       dong.nguyen26it@gmail.com
+${PASSWORD}       123456789
 
 
 *** Test Cases ***
-Go to add new post page
-    Go to login page
+Valid Login
+    Login to Wordpress    ${USERNAME}    ${PASSWORD}
+    Check login successfully
+

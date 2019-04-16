@@ -4,5 +4,9 @@
 	<classpathentry kind="src" path="RobotProject/src/main/java"/>
 	<classpathentry kind="src" path="RobotProject/src/test/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+<<<<<<< HEAD
+=======
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+>>>>>>> dev
 	<classpathentry kind="output" path="bin"/>
 </classpath>

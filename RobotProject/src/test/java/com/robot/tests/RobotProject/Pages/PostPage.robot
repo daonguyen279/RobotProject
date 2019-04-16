@@ -1,8 +1,5 @@
-*** Settings ***
-Resource	../Resource/Setup.robot
+# ********** Add New Post Page **********
 
-
-*** Keywords ***
-Go to add new post page
-    Log To Console    Go to add new post page
-    Click Element	  xpath=//*[@id="menu-posts"]/ul/li[3]/a
+*** Variables ***
+${post_url}     xpath=//div[@class="wp-menu-name" and text()= "Posts"]
+${addnewpost_url}    xpath= //li[@id="menu-posts"]//a[text()="Add New"]
