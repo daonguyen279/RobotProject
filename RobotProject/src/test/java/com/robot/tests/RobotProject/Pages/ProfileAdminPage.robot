@@ -6,7 +6,7 @@ Resource                   ../../Resources/Setup.robot
 ${txt_firstname}           id=first_name
 ${txt_lastname}            id=last_name
 ${txt_nickname}            id=nickname
-${txt_displayname}         name=display_name
+${sel_displayname}         name=display_name
 ${txt_email}               id=email
 ${txt_webstite}            id=url
 ${txt_biographicalinfo}    id=description
