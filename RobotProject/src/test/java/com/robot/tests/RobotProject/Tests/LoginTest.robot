@@ -13,5 +13,5 @@ ${PASSWORD}       123456789
 
 *** Test Cases ***
 Valid Login
-    Login to Wordpress    ${USERNAME}    ${PASSWORD}
+    Login to Wordpress          ${USERNAME}    ${PASSWORD}
     Check login successfully
