@@ -5,5 +5,5 @@ Test teardown                            Teardown
 
 
 *** Test Cases ***
-Go to add new post page
-    Go to login page
+User can add new post successfully
+    Go to add new post page
