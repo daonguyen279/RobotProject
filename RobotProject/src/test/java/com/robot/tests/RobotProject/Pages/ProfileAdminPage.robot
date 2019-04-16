@@ -1,5 +1,5 @@
 *** Settings ***
-Resource                      ../Resource/Setup.robot
+Resource	../../Resources/Setup.robot
 
 *** Variables ***
 
