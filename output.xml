@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <robot generator="Robot 3.1.1 (Python 3.7.3 on win32)" generated="20190416 09:08:07.723" rpa="false">
 <suite id="s1" name="RobotProject" source="C:\Users\InternDN19.01.07\Desktop\Intern19_DinhThiAnhThao\Project_Phase1_Researching\project\RobotProject">
 <suite id="s1-s1" name="RobotProject" source="C:\Users\InternDN19.01.07\Desktop\Intern19_DinhThiAnhThao\Project_Phase1_Researching\project\RobotProject\RobotProject">
@@ -181,6 +182,60 @@
 <stat pass="1" fail="0" id="s1-s1-s1-s1-s1-s1-s1-s1-s1" name="RobotProject">RobotProject.RobotProject.Src.Test.Java.Com.Robot.Tests.RobotProject</stat>
 <stat pass="1" fail="0" id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s1" name="Tests">RobotProject.RobotProject.Src.Test.Java.Com.Robot.Tests.RobotProject.Tests</stat>
 <stat pass="1" fail="0" id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s1-s1" name="LoginTest">RobotProject.RobotProject.Src.Test.Java.Com.Robot.Tests.RobotProject.Tests.LoginTest</stat>
+=======
+<robot generator="Robot 3.1.1 (Python 3.7.3 on win32)" generated="20190411 17:12:07.333" rpa="false">
+<suite id="s1" name="RobotProject" source="C:\xampp\htdocs\RobotProject">
+<suite id="s1-s1" name="RobotProject" source="C:\xampp\htdocs\RobotProject\RobotProject">
+<suite id="s1-s1-s1" name="Src" source="C:\xampp\htdocs\RobotProject\RobotProject\src">
+<suite id="s1-s1-s1-s1" name="Test" source="C:\xampp\htdocs\RobotProject\RobotProject\src\test">
+<suite id="s1-s1-s1-s1-s1" name="Java" source="C:\xampp\htdocs\RobotProject\RobotProject\src\test\java">
+<suite id="s1-s1-s1-s1-s1-s1" name="Testdata" source="C:\xampp\htdocs\RobotProject\RobotProject\src\test\java\testdata.robot">
+<test id="s1-s1-s1-s1-s1-s1-t1" name="Process Data File">
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>data.csv</arg>
+</arguments>
+<assign>
+<var>${FILE_CONTENT}</var>
+</assign>
+<msg timestamp="20190411 17:12:07.401" level="INFO" html="yes">Getting file '&lt;a href="file://C:\xampp\htdocs\RobotProject\data.csv"&gt;C:\xampp\htdocs\RobotProject\data.csv&lt;/a&gt;'.</msg>
+<msg timestamp="20190411 17:12:07.401" level="FAIL">FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\RobotProject\\data.csv'</msg>
+<status status="FAIL" starttime="20190411 17:12:07.400" endtime="20190411 17:12:07.401"></status>
+</kw>
+<tags>
+<tag>file-reading</tag>
+</tags>
+<status status="FAIL" starttime="20190411 17:12:07.400" endtime="20190411 17:12:07.402" critical="yes">FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\RobotProject\\data.csv'</status>
+</test>
+<status status="FAIL" starttime="20190411 17:12:07.387" endtime="20190411 17:12:07.403"></status>
+</suite>
+<status status="FAIL" starttime="20190411 17:12:07.385" endtime="20190411 17:12:07.404"></status>
+</suite>
+<status status="FAIL" starttime="20190411 17:12:07.383" endtime="20190411 17:12:07.405"></status>
+</suite>
+<status status="FAIL" starttime="20190411 17:12:07.382" endtime="20190411 17:12:07.405"></status>
+</suite>
+<status status="FAIL" starttime="20190411 17:12:07.379" endtime="20190411 17:12:07.406"></status>
+</suite>
+<status status="FAIL" starttime="20190411 17:12:07.359" endtime="20190411 17:12:07.407"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">file-reading</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="RobotProject">RobotProject</stat>
+<stat pass="0" fail="1" id="s1-s1" name="RobotProject">RobotProject.RobotProject</stat>
+<stat pass="0" fail="1" id="s1-s1-s1" name="Src">RobotProject.RobotProject.Src</stat>
+<stat pass="0" fail="1" id="s1-s1-s1-s1" name="Test">RobotProject.RobotProject.Src.Test</stat>
+<stat pass="0" fail="1" id="s1-s1-s1-s1-s1" name="Java">RobotProject.RobotProject.Src.Test.Java</stat>
+<stat pass="0" fail="1" id="s1-s1-s1-s1-s1-s1" name="Testdata">RobotProject.RobotProject.Src.Test.Java.Testdata</stat>
+>>>>>>> 1e5c9a94f1e714643fb524e5060252666988a9d8
 </suite>
 </statistics>
 <errors>
