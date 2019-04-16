@@ -12,7 +12,3 @@ Login to Wordpress
     Input Text         ${txt_password}       ${arg_password}
     Select Checkbox    ${chb_rememberme}
     Click Button       ${btn_login}
-    
-Check login successfully
-    Title Should Be           ${title}
-    Element Text Should Be    ${lbl_welcome}    ${USERNAME}
