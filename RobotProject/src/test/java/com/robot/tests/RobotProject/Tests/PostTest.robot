@@ -4,7 +4,7 @@ Resource         ../Actions/LoginActions/LoginAction.robot
 Resource         ../Actions/AddNewPostActions/PostAction.robot
 Resource         ../Actions/AddNewPostActions/CheckPost.robot
 Test setup       Setup
-Test teardown	Teardown
+Test teardown	 Teardown
 
 
 *** Variables ***
@@ -16,6 +16,5 @@ ${POST}        The fire that broke out at Notre Dame Cathedral, destroying the r
 
 *** Test Cases ***
 User can add new post successfully
-    Login to Wordpress                 ${USERNAME}    ${PASSWORD}
-    Add new post                       ${TITLE}       ${POST} 
+    Add new post                       ${TITLE}    ${POST} 
     Check add new post successfully            

@@ -4,7 +4,7 @@ ${txt_email}               id=email
 ${txt_first_name}          id=first_name
 ${txt_last_name}           id=last_name
 ${txt_website}             class=code
-${btn_show_password}       //button[@class="button wp-generate-pw hide-if-no-js"]
+${btn_show_password}       xpath=//button[@class="button wp-generate-pw hide-if-no-js"]
 ${txt_password1}           id=pass1-text
 ${chb_confirm_password}    class=pw-checkbox
 ${cbb_role}                id=role

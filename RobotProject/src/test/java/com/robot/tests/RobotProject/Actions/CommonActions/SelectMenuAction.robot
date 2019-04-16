@@ -3,7 +3,6 @@ Resource	../../Resources/Setup.robot
 Resource	../../Pages/HomePage.robot
 
 
-
 *** Keywords ***
 Select menu 
     [Arguments]        ${arg_menuItem}       

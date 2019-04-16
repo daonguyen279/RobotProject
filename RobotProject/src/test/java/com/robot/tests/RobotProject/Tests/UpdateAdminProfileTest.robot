@@ -4,13 +4,11 @@ Resource    ../Actions/UpdateAdminProfileActions/UpdateAdminProfileAction.robot
 Resource	../Actions/CommonActions/SelectMenuAction.robot
 Resource	../Actions/LoginActions/LoginAction.robot
 Resource    ../Actions/CommonActions/LogoutAction.robot
-
-
 Test setup	    Setup
 Test teardown	Teardown
 
-*** Variables ***
 
+*** Variables ***
 ${USERNAME}            hongdao279
 ${PASSWORD}            hihi123
 ${FIRSTNAME}           hihi
@@ -35,6 +33,4 @@ Valid update admin profile
     Select menu           ${menu_users}       
     Go to admin profile page    
     ${RANEMIAL}=    Generate Random String    4   [LETTERS]       
-    Fill out and submit update information     ${FIRSTNAME}    ${LASTNAME}    ${NICKNAME}    ${DISPLAYNAME}    ${RANEMIAL}@sharklasers.com    ${WEBSITE}    ${BIOGRAPHYINFOR}    ${PASSWORD}
-    
-    
+    Fill out and submit update information     ${FIRSTNAME}    ${LASTNAME}    ${NICKNAME}    ${DISPLAYNAME}    ${RANEMIAL}@sharklasers.com    ${WEBSITE}    ${BIOGRAPHYINFOR}    ${PASSWORD}  
