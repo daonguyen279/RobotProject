@@ -8,8 +8,8 @@ Logout Wordpress
     
     Log To Console                      Logout
    
-    Mouse Up                            ${lbl_displayname}
+    Mouse Over                            ${lbl_displayname}
     
-    Wait Until Element Is Visible   ${btn_logout}
+    Wait Until Element Is Visible        ${btn_logout}
     
     Click Element                       ${btn_logout}
