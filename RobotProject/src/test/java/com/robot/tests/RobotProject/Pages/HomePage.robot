@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 *** Settings ***
-Resource	../../Resources/Setup.robot
+Resource	../Resources/Setup.robot
 
 *** Variables ***
 
@@ -38,4 +38,7 @@ ${submenu_plugin_editor}        xpath=//a[@href="plugin-editor.php"]
 ${submenu_all_users}            xpath=//a[@href="users.php"][text()="All Users"]
 ${submenu_new_user}             xpath=//a[@href="user-new.php"]
 ${submenu_profile}              xpath=//a[@href="profile.php"]
->>>>>>> 93be0293da95551fa068dd9b364345c73cfaaf79
+
+${lbl_displayname}              xpath=//span[@class="display-name"]
+${btn_logout}                   xpath=//a[@class="ab-item"]
+

@@ -2,7 +2,8 @@
 Resource                       ../../Resources/Setup.robot
 Resource                       ../../Pages/ProfileAdminPage.robot
 Resource                       ../../Pages/HomePage.robot
-Resource                       ../../Action/SelectMenuAction.robot
+Resource                       ../../Actions/CommonActions/SelectMenuAction.robot
+Resource                       ../../Actions/CommonActions/LogoutAction.robot
 
 
 *** Keywords ***
@@ -10,7 +11,7 @@ Go to admin profile page
 	
 	Click element  ${submenu_profile}
 
-Fill out update information
+Fill out and submit update information
 	[Arguments] 	${arg_firstname}	${arg_lastname}    ${arg_nickname}    ${arg_displayname}    ${arg_email}    ${arg_website}    ${arg_biographicalinfo}    ${arg_generatepassword}
 
 	Input Text                   ${txt_firstname}           ${arg_firstname}
@@ -20,6 +21,6 @@ Fill out update information
 	Input Text                   ${txt_email}               ${arg_email}
 	Input Text                   ${txt_biographicalinfo}    ${arg_biographicalinfo}
 	Click Element                ${btn_generatepassword}
-	Input Text                   ${txt_generatepassword}    ${arg_generatepassword}         
-	Input Text                   ${txt_password}            ${arg_password}
-	Click Button                 ${btn_login}
+	Input Text                   ${txt_generatepassword}    ${arg_generatepassword}
+	Click Element                ${cbx_confirmweakpasswork}                     
+	Click Button                 ${btn_updateprofile}
