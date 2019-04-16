@@ -1,4 +1,5 @@
 *** Settings ***
-Library                     Selenium2Library
-Library                     OperatingSystem
-Library                     PageObjectLibrary
+Library    Selenium2Library
+Library    OperatingSystem
+Library    PageObjectLibrary
+Library    String
