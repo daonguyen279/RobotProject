@@ -32,6 +32,17 @@
 			<version>3.9.1.0</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>  
+		    <groupId>org.seleniumhq.selenium</groupId>  
+		    <artifactId>selenium-java</artifactId>  
+		    <version>3.4.0</version>  
+		</dependency>  
+<dependency>  
+    <groupId>org.seleniumhq.selenium</groupId>  
+    <artifactId>selenium-server</artifactId>  
+    <version>3.4.0</version>  
+</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>
