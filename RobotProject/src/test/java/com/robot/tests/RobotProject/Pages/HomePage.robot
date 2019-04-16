@@ -1,13 +1,12 @@
-<<<<<<< HEAD
 *** Settings ***
 Resource	../Resources/Setup.robot
 
-*** Variables ***
 
-=======
 *** Variables ***
 ${title}                        Dashboard ‹ WordpressTeam2 — WordPress
 ${lbl_welcome}                  xpath=//li[@id="wp-admin-bar-my-account"]/a[@class="ab-item"]/span[@class="display-name"]
+${lbl_account}                  xpath=//li[@id="wp-admin-bar-my-account"][a[@class="ab-item"]/span[@class="display-name"]]
+${lbl_logout}                   id=wp-admin-bar-logout
 ${menu_dashboard}               xpath=//a[@href="index.php"]/div[text()="Dashboard"]
 ${menu_posts}                   id=menu-posts
 ${menu_media}                   id=menu-media
@@ -38,7 +37,3 @@ ${submenu_plugin_editor}        xpath=//a[@href="plugin-editor.php"]
 ${submenu_all_users}            xpath=//a[@href="users.php"][text()="All Users"]
 ${submenu_new_user}             xpath=//a[@href="user-new.php"]
 ${submenu_profile}              xpath=//a[@href="profile.php"]
-
-${lbl_displayname}              xpath=//span[@class="display-name"]
-${btn_logout}                   xpath=//a[@class="ab-item"]
-

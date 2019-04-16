@@ -4,12 +4,7 @@ Resource	../../Pages/HomePage.robot
 
 
 *** Keywords ***
-Logout Wordpress
-    
-    Log To Console                      Logout
-   
-    Mouse Up                            ${lbl_displayname}
-    
-    Wait Until Element Is Visible   ${btn_logout}
-    
-    Click Element                       ${btn_logout}
+Logout
+    Mouse Over                       ${lbl_account}
+    Wait Until Element Is Visible    ${lbl_logout}
+    Click Element                    ${lbl_logout}
