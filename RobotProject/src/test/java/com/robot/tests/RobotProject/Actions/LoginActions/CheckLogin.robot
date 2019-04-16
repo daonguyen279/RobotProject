@@ -1,6 +1,6 @@
 *** Settings ***
 Resource	../../Resources/Setup.robot
-Resource	../../Pages/LoginPage.robot
+Resource    ../../Pages/HomePage.robot
 
 
 *** Keywords ***
