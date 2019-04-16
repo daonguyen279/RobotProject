@@ -2,6 +2,7 @@
 Resource	     ../Resources/Setup.robot
 Resource         ../Actions/LoginActions/LoginAction.robot
 Resource         ../Actions/AddNewUserActions/AddNewUserAction.robot
+Resource         ../Actions/CommonActions/LogoutAction.robot
 Test setup       Setup
 # Test teardown    Teardown
 
@@ -25,3 +26,4 @@ Add New User Account
     ${FIRSTNAME}=       Generate Random String    7    [LETTERS]
     ${LASTNAME}=        Generate Random String    7    [LETTERS]
     Add New User    ${NEW_USERNAME}    ${NEW_USERNAME}@gmail.com    ${FIRSTNAME}    ${LASTNAME}    ${WEBSITE}    ${NEW_PASSWORD}    ${ROLE}
+    Logout
