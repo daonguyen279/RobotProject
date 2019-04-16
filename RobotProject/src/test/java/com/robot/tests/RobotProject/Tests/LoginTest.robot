@@ -7,7 +7,7 @@ Test teardown	Teardown
 
 
 *** Variables ***
-${USERNAME}       InternDN19.01.07
+${USERNAME}       dong.nguyen26it@gmail.com
 ${PASSWORD}       123456789
 
 
@@ -15,3 +15,4 @@ ${PASSWORD}       123456789
 Valid Login
     Login to Wordpress    ${USERNAME}    ${PASSWORD}
     Check login successfully
+
