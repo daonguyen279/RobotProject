@@ -1,6 +1,12 @@
+*** Settings ***
+Resource	../Resources/Setup.robot
+
+
 *** Variables ***
 ${title}                        Dashboard ‹ WordpressTeam2 — WordPress
 ${lbl_welcome}                  xpath=//li[@id="wp-admin-bar-my-account"]/a[@class="ab-item"]/span[@class="display-name"]
+${lbl_account}                  xpath=//li[@id="wp-admin-bar-my-account"][a[@class="ab-item"]/span[@class="display-name"]]
+${lbl_logout}                   id=wp-admin-bar-logout
 ${menu_dashboard}               xpath=//a[@href="index.php"]/div[text()="Dashboard"]
 ${menu_posts}                   id=menu-posts
 ${menu_media}                   id=menu-media

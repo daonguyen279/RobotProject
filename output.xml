@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.1 (Python 3.7.3 on win32)" generated="20190416 14:47:09.921" rpa="false">
-<suite id="s1" name="RobotProject" source="C:\Users\InternDN19.01.02\eclipse-workspace\RobotProject">
-<suite id="s1-s1" name="RobotProject" source="C:\Users\InternDN19.01.02\eclipse-workspace\RobotProject\RobotProject">
-<suite id="s1-s1-s1" name="Src" source="C:\Users\InternDN19.01.02\eclipse-workspace\RobotProject\RobotProject\src">
-<suite id="s1-s1-s1-s1" name="Test" source="C:\Users\InternDN19.01.02\eclipse-workspace\RobotProject\RobotProject\src\test">
-<suite id="s1-s1-s1-s1-s1" name="Java" source="C:\Users\InternDN19.01.02\eclipse-workspace\RobotProject\RobotProject\src\test\java">
-<suite id="s1-s1-s1-s1-s1-s1" name="Com" source="C:\Users\InternDN19.01.02\eclipse-workspace\RobotProject\RobotProject\src\test\java\com">
-<suite id="s1-s1-s1-s1-s1-s1-s1" name="Robot" source="C:\Users\InternDN19.01.02\eclipse-workspace\RobotProject\RobotProject\src\test\java\com\robot">
-<suite id="s1-s1-s1-s1-s1-s1-s1-s1" name="Tests" source="C:\Users\InternDN19.01.02\eclipse-workspace\RobotProject\RobotProject\src\test\java\com\robot\tests">
-<suite id="s1-s1-s1-s1-s1-s1-s1-s1-s1" name="RobotProject" source="C:\Users\InternDN19.01.02\eclipse-workspace\RobotProject\RobotProject\src\test\java\com\robot\tests\RobotProject">
-<suite id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s1" name="Tests" source="C:\Users\InternDN19.01.02\eclipse-workspace\RobotProject\RobotProject\src\test\java\com\robot\tests\RobotProject\Tests">
-<suite id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s1-s1" name="PostTest" source="C:\Users\InternDN19.01.02\eclipse-workspace\RobotProject\RobotProject\src\test\java\com\robot\tests\RobotProject\Tests\PostTest.robot">
-<test id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s1-s1-t1" name="User can add new post successfully">
+<<<<<<< HEAD
+<robot generator="Robot 3.1.1 (Python 3.7.3 on win32)" generated="20190416 09:08:07.723" rpa="false">
+<suite id="s1" name="RobotProject" source="C:\Users\InternDN19.01.07\Desktop\Intern19_DinhThiAnhThao\Project_Phase1_Researching\project\RobotProject">
+<suite id="s1-s1" name="RobotProject" source="C:\Users\InternDN19.01.07\Desktop\Intern19_DinhThiAnhThao\Project_Phase1_Researching\project\RobotProject\RobotProject">
+<suite id="s1-s1-s1" name="Src" source="C:\Users\InternDN19.01.07\Desktop\Intern19_DinhThiAnhThao\Project_Phase1_Researching\project\RobotProject\RobotProject\src">
+<suite id="s1-s1-s1-s1" name="Test" source="C:\Users\InternDN19.01.07\Desktop\Intern19_DinhThiAnhThao\Project_Phase1_Researching\project\RobotProject\RobotProject\src\test">
+<suite id="s1-s1-s1-s1-s1" name="Java" source="C:\Users\InternDN19.01.07\Desktop\Intern19_DinhThiAnhThao\Project_Phase1_Researching\project\RobotProject\RobotProject\src\test\java">
+<suite id="s1-s1-s1-s1-s1-s1" name="Com" source="C:\Users\InternDN19.01.07\Desktop\Intern19_DinhThiAnhThao\Project_Phase1_Researching\project\RobotProject\RobotProject\src\test\java\com">
+<suite id="s1-s1-s1-s1-s1-s1-s1" name="Robot" source="C:\Users\InternDN19.01.07\Desktop\Intern19_DinhThiAnhThao\Project_Phase1_Researching\project\RobotProject\RobotProject\src\test\java\com\robot">
+<suite id="s1-s1-s1-s1-s1-s1-s1-s1" name="Tests" source="C:\Users\InternDN19.01.07\Desktop\Intern19_DinhThiAnhThao\Project_Phase1_Researching\project\RobotProject\RobotProject\src\test\java\com\robot\tests">
+<suite id="s1-s1-s1-s1-s1-s1-s1-s1-s1" name="RobotProject" source="C:\Users\InternDN19.01.07\Desktop\Intern19_DinhThiAnhThao\Project_Phase1_Researching\project\RobotProject\RobotProject\src\test\java\com\robot\tests\RobotProject">
+<suite id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s1" name="Tests" source="C:\Users\InternDN19.01.07\Desktop\Intern19_DinhThiAnhThao\Project_Phase1_Researching\project\RobotProject\RobotProject\src\test\java\com\robot\tests\RobotProject\Tests">
+<suite id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s1-s1" name="LoginTest" source="C:\Users\InternDN19.01.07\Desktop\Intern19_DinhThiAnhThao\Project_Phase1_Researching\project\RobotProject\RobotProject\src\test\java\com\robot\tests\RobotProject\Tests\LoginTest.robot">
+<test id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s1-s1-t1" name="Valid Login">
 <kw name="Setup" library="Setup" type="setup">
 <kw name="Normalize Path" library="OperatingSystem">
 <doc>Normalizes the given path.</doc>
@@ -22,15 +23,15 @@
 <assign>
 <var>${PATH}</var>
 </assign>
-<msg timestamp="20190416 14:47:10.249" level="INFO">${PATH} = path</msg>
-<status status="PASS" starttime="20190416 14:47:10.248" endtime="20190416 14:47:10.249"></status>
+<msg timestamp="20190416 09:08:07.924" level="INFO">${PATH} = path</msg>
+<status status="PASS" starttime="20190416 09:08:07.924" endtime="20190416 09:08:07.924"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${PATH}</arg>
 </arguments>
-<status status="PASS" starttime="20190416 14:47:10.249" endtime="20190416 14:47:10.250"></status>
+<status status="PASS" starttime="20190416 09:08:07.924" endtime="20190416 09:08:07.924"></status>
 </kw>
 <kw name="Append To Environment Variable" library="OperatingSystem">
 <doc>Appends given ``values`` to environment variable ``name``.</doc>
@@ -38,8 +39,8 @@
 <arg>${PATH}</arg>
 <arg>${PATH}</arg>
 </arguments>
-<msg timestamp="20190416 14:47:10.251" level="INFO">Environment variable 'path' set to value 'C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Git\cmd;C:\Program Files\webdrivers;;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\InternDN19.01.02\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\InternDN19.01.02\AppData\Local\Programs\Python\Python37-32\;C:\Users\InternDN19.01.02\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\InternDN19.01.02\AppData\Local\Programs\Python\Python37\;C:\Users\InternDN19.01.02\AppData\Local\Microsoft\WindowsApps;;C:\Users\InternDN19.01.02\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\InternDN19.01.02\AppData\Roaming\Composer\vendor\bin;C:\Users\InternDN19.01.02\Desktop\eclipse-java-oxygen-1a-win32-x86_64\eclipse;;path'.</msg>
-<status status="PASS" starttime="20190416 14:47:10.250" endtime="20190416 14:47:10.251"></status>
+<msg timestamp="20190416 09:08:07.924" level="INFO">Environment variable 'path' set to value 'C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Python37\;C:\Python37\Scripts\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Python27\Lib\site-packages;C:\Users\InternDN19.01.07\Desktop\Intern19_DinhThiAnhThao\SeleniumWebdriver;C:\xampp\php;C:\composer;C:\Users\InternDN19.01.07\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\InternDN19.01.07\AppData\Local\Programs\Python\Python37\;C:\Users\InternDN19.01.07\AppData\Local\Microsoft\WindowsApps;;C:\Users\InternDN19.01.07\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\InternDN19.01.07\AppData\Roaming\Composer\vendor\bin;C:\Users\InternDN19.01.07\Desktop\Intern19_DinhThiAnhThao\eclipse;;C:\Users\InternDN19.01.07\AppData\Local\Programs\Python\Python37\lib\site-packages\pywin32_system32;path'.</msg>
+<status status="PASS" starttime="20190416 09:08:07.924" endtime="20190416 09:08:07.924"></status>
 </kw>
 <kw name="Open Browser" library="Selenium2Library">
 <doc>Opens a new browser instance to the given ``url``.</doc>
@@ -47,14 +48,14 @@
 <arg>${ROOT}</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20190416 14:47:10.252" level="INFO">Opening browser 'Chrome' to base url 'http://localhost/wordpress/wp-admin/'.</msg>
-<status status="PASS" starttime="20190416 14:47:10.251" endtime="20190416 14:47:13.360"></status>
+<msg timestamp="20190416 09:08:07.924" level="INFO">Opening browser 'Chrome' to base url 'http://localhost/wordpress/wp-admin/'.</msg>
+<status status="PASS" starttime="20190416 09:08:07.924" endtime="20190416 09:08:10.600"></status>
 </kw>
 <kw name="Maximize Browser Window" library="Selenium2Library">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20190416 14:47:13.360" endtime="20190416 14:47:14.481"></status>
+<status status="PASS" starttime="20190416 09:08:10.600" endtime="20190416 09:08:11.732"></status>
 </kw>
-<status status="PASS" starttime="20190416 14:47:10.248" endtime="20190416 14:47:14.482"></status>
+<status status="PASS" starttime="20190416 09:08:07.924" endtime="20190416 09:08:11.732"></status>
 </kw>
 <kw name="Login to Wordpress" library="LoginAction">
 <arguments>
@@ -66,14 +67,14 @@
 <arguments>
 <arg>Login to Wordpress</arg>
 </arguments>
-<status status="PASS" starttime="20190416 14:47:14.483" endtime="20190416 14:47:14.484"></status>
+<status status="PASS" starttime="20190416 09:08:11.732" endtime="20190416 09:08:11.732"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="Selenium2Library">
 <doc>Waits until element ``locator`` appears on current page.</doc>
 <arguments>
 <arg>${btn_login}</arg>
 </arguments>
-<status status="PASS" starttime="20190416 14:47:14.484" endtime="20190416 14:47:14.503"></status>
+<status status="PASS" starttime="20190416 09:08:11.738" endtime="20190416 09:08:11.739"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -81,8 +82,8 @@
 <arg>${txt_username}</arg>
 <arg>${arg_username}</arg>
 </arguments>
-<msg timestamp="20190416 14:47:14.504" level="INFO">Typing text 'dong.nguyen26it@gmail.com' into text field 'id=user_login'.</msg>
-<status status="PASS" starttime="20190416 14:47:14.503" endtime="20190416 14:47:14.676"></status>
+<msg timestamp="20190416 09:08:11.739" level="INFO">Typing text 'InternDN19.01.07' into text field 'id=user_login'.</msg>
+<status status="PASS" starttime="20190416 09:08:11.739" endtime="20190416 09:08:11.858"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -90,160 +91,134 @@
 <arg>${txt_password}</arg>
 <arg>${arg_password}</arg>
 </arguments>
-<msg timestamp="20190416 14:47:14.678" level="INFO">Typing text '123456789' into text field 'id=user_pass'.</msg>
-<status status="PASS" starttime="20190416 14:47:14.677" endtime="20190416 14:47:14.781"></status>
+<msg timestamp="20190416 09:08:11.859" level="INFO">Typing text '123456789' into text field 'id=user_pass'.</msg>
+<status status="PASS" starttime="20190416 09:08:11.859" endtime="20190416 09:08:11.921"></status>
 </kw>
 <kw name="Select Checkbox" library="Selenium2Library">
 <doc>Selects checkbox identified by ``locator``.</doc>
 <arguments>
 <arg>${chb_rememberme}</arg>
 </arguments>
-<msg timestamp="20190416 14:47:14.782" level="INFO">Selecting checkbox 'id=rememberme'.</msg>
-<status status="PASS" starttime="20190416 14:47:14.782" endtime="20190416 14:47:14.867"></status>
+<msg timestamp="20190416 09:08:11.922" level="INFO">Selecting checkbox 'id=rememberme'.</msg>
+<status status="PASS" starttime="20190416 09:08:11.922" endtime="20190416 09:08:11.978"></status>
 </kw>
 <kw name="Click Button" library="Selenium2Library">
 <doc>Clicks button identified by ``locator``.</doc>
 <arguments>
 <arg>${btn_login}</arg>
 </arguments>
-<msg timestamp="20190416 14:47:14.868" level="INFO">Clicking button 'id=wp-submit'.</msg>
-<status status="PASS" starttime="20190416 14:47:14.867" endtime="20190416 14:47:16.107"></status>
+<msg timestamp="20190416 09:08:11.979" level="INFO">Clicking button 'id=wp-submit'.</msg>
+<status status="PASS" starttime="20190416 09:08:11.979" endtime="20190416 09:08:13.402"></status>
 </kw>
-<status status="PASS" starttime="20190416 14:47:14.483" endtime="20190416 14:47:16.107"></status>
+<status status="PASS" starttime="20190416 09:08:11.732" endtime="20190416 09:08:13.403"></status>
 </kw>
-<kw name="Add new post" library="PostAction">
-<arguments>
-<arg>${TITLE}</arg>
-<arg>${POST}</arg>
-</arguments>
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>Add new post</arg>
-</arguments>
-<status status="PASS" starttime="20190416 14:47:16.110" endtime="20190416 14:47:16.111"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${menu_posts}</arg>
-</arguments>
-<msg timestamp="20190416 14:47:16.113" level="INFO">Clicking element 'id=menu-posts'.</msg>
-<status status="PASS" starttime="20190416 14:47:16.112" endtime="20190416 14:47:16.817"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${submenu_new_post}</arg>
-</arguments>
-<msg timestamp="20190416 14:47:16.819" level="INFO">Clicking element 'xpath=//a[@href="post-new.php"]'.</msg>
-<status status="PASS" starttime="20190416 14:47:16.818" endtime="20190416 14:47:19.468"></status>
-</kw>
-<kw name="Input Text" library="Selenium2Library">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>${txt_addtitle}</arg>
-<arg>${arg_addtitle}</arg>
-</arguments>
-<msg timestamp="20190416 14:47:19.470" level="INFO">Typing text 'Our lady of tears what the papers say about the Notre Dame fire' into text field 'id=post-title-0'.</msg>
-<status status="PASS" starttime="20190416 14:47:19.469" endtime="20190416 14:47:20.522"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${txt_content}</arg>
-</arguments>
-<msg timestamp="20190416 14:47:20.524" level="INFO">Clicking element 'xpath=//textarea[@class="editor-default-block-appender__content"]'.</msg>
-<status status="PASS" starttime="20190416 14:47:20.523" endtime="20190416 14:47:20.788"></status>
-</kw>
-<kw name="Input Text" library="Selenium2Library">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>${txt_addpost}</arg>
-<arg>${arg_addpost}</arg>
-</arguments>
-<msg timestamp="20190416 14:47:20.790" level="INFO">Typing text 'The fire that broke out at Notre Dame Cathedral, destroying the roof and causing the spire to collapse in front of horrified onlookers, is the lead story on the front pages in both France and the UK today.We lead with the French papers, which devote their front pages to the story and striking images of the blaze. La Croix, a French Catholic newspaper, has the headline: Le coeur en cendres Heart in ashes.' into text field 'xpath=//div[@class="components-autocomplete"]/p'.</msg>
-<status status="PASS" starttime="20190416 14:47:20.789" endtime="20190416 14:47:26.659"></status>
-</kw>
-<kw name="Click Button" library="Selenium2Library">
-<doc>Clicks button identified by ``locator``.</doc>
-<arguments>
-<arg>${btn_publish1}</arg>
-</arguments>
-<msg timestamp="20190416 14:47:26.661" level="INFO">Clicking button 'xpath=//button[@class="components-button editor-post-publish-panel__toggle is-button is-primary"]'.</msg>
-<status status="PASS" starttime="20190416 14:47:26.659" endtime="20190416 14:47:26.809"></status>
-</kw>
-<kw name="Click Button" library="Selenium2Library">
-<doc>Clicks button identified by ``locator``.</doc>
-<arguments>
-<arg>${btn_publish2}</arg>
-</arguments>
-<msg timestamp="20190416 14:47:26.811" level="INFO">Clicking button 'xpath=//button[@class="components-button editor-post-publish-button is-button is-default is-primary is-large"]'.</msg>
-<status status="PASS" starttime="20190416 14:47:26.810" endtime="20190416 14:47:27.016"></status>
-</kw>
-<kw name="Wait Until Page Contains Element" library="Selenium2Library">
-<doc>Waits until element ``locator`` appears on current page.</doc>
-<arguments>
-<arg>${lnk_viewpost}</arg>
-</arguments>
-<status status="PASS" starttime="20190416 14:47:27.017" endtime="20190416 14:47:27.892"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${lnk_viewpost}</arg>
-</arguments>
-<msg timestamp="20190416 14:47:27.893" level="INFO">Clicking element 'xpath=//div[@class="components-panel__body post-publish-panel__postpublish-header is-opened"]/a'.</msg>
-<status status="PASS" starttime="20190416 14:47:27.892" endtime="20190416 14:47:29.027"></status>
-</kw>
-<status status="PASS" starttime="20190416 14:47:16.108" endtime="20190416 14:47:29.028"></status>
-</kw>
-<kw name="Check add new post successfully" library="CheckPost">
+<kw name="Check login successfully" library="CheckLogin">
 <kw name="Title Should Be" library="Selenium2Library">
 <doc>Verifies that current page title equals ``title``.</doc>
 <arguments>
-<arg>${TITLE}</arg>
+<arg>${title}</arg>
 </arguments>
-<kw name="Capture Page Screenshot" library="Selenium2Library">
-<doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20190416 14:47:29.408" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-41.png"&gt;&lt;img src="selenium-screenshot-41.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20190416 14:47:29.037" endtime="20190416 14:47:29.409"></status>
+<msg timestamp="20190416 09:08:13.411" level="INFO">Page title is 'Dashboard ‹ WordpressTeam2 — WordPress'.</msg>
+<status status="PASS" starttime="20190416 09:08:13.406" endtime="20190416 09:08:13.411"></status>
 </kw>
-<msg timestamp="20190416 14:47:29.411" level="FAIL">Title should have been 'Our lady of tears what the papers say about the Notre Dame fire' but was 'Our lady of tears what the papers say about the Notre Dame fire – DemoProject'.</msg>
-<status status="FAIL" starttime="20190416 14:47:29.030" endtime="20190416 14:47:29.411"></status>
+<kw name="Element Text Should Be" library="Selenium2Library">
+<doc>Verifies that element ``locator`` contains exact text ``expected``.</doc>
+<arguments>
+<arg>${lbl_welcome}</arg>
+<arg>${USERNAME}</arg>
+</arguments>
+<msg timestamp="20190416 09:08:13.412" level="INFO">Verifying element 'xpath=//li[@id="wp-admin-bar-my-account"]/a[@class="ab-item"]/span[@class="display-name"]' contains exact text 'InternDN19.01.07'.</msg>
+<status status="PASS" starttime="20190416 09:08:13.412" endtime="20190416 09:08:13.431"></status>
 </kw>
-<status status="FAIL" starttime="20190416 14:47:29.029" endtime="20190416 14:47:29.412"></status>
+<status status="PASS" starttime="20190416 09:08:13.404" endtime="20190416 09:08:13.431"></status>
 </kw>
 <kw name="Teardown" library="Setup" type="teardown">
 <kw name="Close All Browsers" library="Selenium2Library">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<status status="PASS" starttime="20190416 14:47:29.413" endtime="20190416 14:47:31.614"></status>
+<status status="PASS" starttime="20190416 09:08:13.431" endtime="20190416 09:08:15.575"></status>
 </kw>
-<status status="PASS" starttime="20190416 14:47:29.412" endtime="20190416 14:47:31.615"></status>
+<status status="PASS" starttime="20190416 09:08:13.431" endtime="20190416 09:08:15.575"></status>
 </kw>
-<status status="FAIL" starttime="20190416 14:47:10.247" endtime="20190416 14:47:31.616" critical="yes">Title should have been 'Our lady of tears what the papers say about the Notre Dame fire' but was 'Our lady of tears what the papers say about the Notre Dame fire – DemoProject'.</status>
+<status status="PASS" starttime="20190416 09:08:07.924" endtime="20190416 09:08:15.575" critical="yes"></status>
 </test>
-<status status="FAIL" starttime="20190416 14:47:10.015" endtime="20190416 14:47:31.618"></status>
+<status status="PASS" starttime="20190416 09:08:07.786" endtime="20190416 09:08:15.578"></status>
 </suite>
-<status status="FAIL" starttime="20190416 14:47:10.012" endtime="20190416 14:47:31.625"></status>
+<status status="PASS" starttime="20190416 09:08:07.786" endtime="20190416 09:08:15.579"></status>
 </suite>
-<status status="FAIL" starttime="20190416 14:47:10.009" endtime="20190416 14:47:31.631"></status>
+<status status="PASS" starttime="20190416 09:08:07.786" endtime="20190416 09:08:15.581"></status>
 </suite>
-<status status="FAIL" starttime="20190416 14:47:10.006" endtime="20190416 14:47:31.635"></status>
+<status status="PASS" starttime="20190416 09:08:07.786" endtime="20190416 09:08:15.581"></status>
 </suite>
-<status status="FAIL" starttime="20190416 14:47:10.004" endtime="20190416 14:47:31.638"></status>
+<status status="PASS" starttime="20190416 09:08:07.786" endtime="20190416 09:08:15.581"></status>
 </suite>
-<status status="FAIL" starttime="20190416 14:47:10.001" endtime="20190416 14:47:31.641"></status>
+<status status="PASS" starttime="20190416 09:08:07.786" endtime="20190416 09:08:15.581"></status>
 </suite>
-<status status="FAIL" starttime="20190416 14:47:09.998" endtime="20190416 14:47:31.644"></status>
+<status status="PASS" starttime="20190416 09:08:07.770" endtime="20190416 09:08:15.581"></status>
 </suite>
-<status status="FAIL" starttime="20190416 14:47:09.995" endtime="20190416 14:47:31.647"></status>
+<status status="PASS" starttime="20190416 09:08:07.770" endtime="20190416 09:08:15.581"></status>
 </suite>
-<status status="FAIL" starttime="20190416 14:47:09.993" endtime="20190416 14:47:31.650"></status>
+<status status="PASS" starttime="20190416 09:08:07.770" endtime="20190416 09:08:15.581"></status>
 </suite>
-<status status="FAIL" starttime="20190416 14:47:09.989" endtime="20190416 14:47:31.653"></status>
+<status status="PASS" starttime="20190416 09:08:07.770" endtime="20190416 09:08:15.581"></status>
 </suite>
-<status status="FAIL" starttime="20190416 14:47:09.959" endtime="20190416 14:47:31.656"></status>
+<status status="PASS" starttime="20190416 09:08:07.754" endtime="20190416 09:08:15.581"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="RobotProject">RobotProject</stat>
+<stat pass="1" fail="0" id="s1-s1" name="RobotProject">RobotProject.RobotProject</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="Src">RobotProject.RobotProject.Src</stat>
+<stat pass="1" fail="0" id="s1-s1-s1-s1" name="Test">RobotProject.RobotProject.Src.Test</stat>
+<stat pass="1" fail="0" id="s1-s1-s1-s1-s1" name="Java">RobotProject.RobotProject.Src.Test.Java</stat>
+<stat pass="1" fail="0" id="s1-s1-s1-s1-s1-s1" name="Com">RobotProject.RobotProject.Src.Test.Java.Com</stat>
+<stat pass="1" fail="0" id="s1-s1-s1-s1-s1-s1-s1" name="Robot">RobotProject.RobotProject.Src.Test.Java.Com.Robot</stat>
+<stat pass="1" fail="0" id="s1-s1-s1-s1-s1-s1-s1-s1" name="Tests">RobotProject.RobotProject.Src.Test.Java.Com.Robot.Tests</stat>
+<stat pass="1" fail="0" id="s1-s1-s1-s1-s1-s1-s1-s1-s1" name="RobotProject">RobotProject.RobotProject.Src.Test.Java.Com.Robot.Tests.RobotProject</stat>
+<stat pass="1" fail="0" id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s1" name="Tests">RobotProject.RobotProject.Src.Test.Java.Com.Robot.Tests.RobotProject.Tests</stat>
+<stat pass="1" fail="0" id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s1-s1" name="LoginTest">RobotProject.RobotProject.Src.Test.Java.Com.Robot.Tests.RobotProject.Tests.LoginTest</stat>
+=======
+<robot generator="Robot 3.1.1 (Python 3.7.3 on win32)" generated="20190411 17:12:07.333" rpa="false">
+<suite id="s1" name="RobotProject" source="C:\xampp\htdocs\RobotProject">
+<suite id="s1-s1" name="RobotProject" source="C:\xampp\htdocs\RobotProject\RobotProject">
+<suite id="s1-s1-s1" name="Src" source="C:\xampp\htdocs\RobotProject\RobotProject\src">
+<suite id="s1-s1-s1-s1" name="Test" source="C:\xampp\htdocs\RobotProject\RobotProject\src\test">
+<suite id="s1-s1-s1-s1-s1" name="Java" source="C:\xampp\htdocs\RobotProject\RobotProject\src\test\java">
+<suite id="s1-s1-s1-s1-s1-s1" name="Testdata" source="C:\xampp\htdocs\RobotProject\RobotProject\src\test\java\testdata.robot">
+<test id="s1-s1-s1-s1-s1-s1-t1" name="Process Data File">
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>data.csv</arg>
+</arguments>
+<assign>
+<var>${FILE_CONTENT}</var>
+</assign>
+<msg timestamp="20190411 17:12:07.401" level="INFO" html="yes">Getting file '&lt;a href="file://C:\xampp\htdocs\RobotProject\data.csv"&gt;C:\xampp\htdocs\RobotProject\data.csv&lt;/a&gt;'.</msg>
+<msg timestamp="20190411 17:12:07.401" level="FAIL">FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\RobotProject\\data.csv'</msg>
+<status status="FAIL" starttime="20190411 17:12:07.400" endtime="20190411 17:12:07.401"></status>
+</kw>
+<tags>
+<tag>file-reading</tag>
+</tags>
+<status status="FAIL" starttime="20190411 17:12:07.400" endtime="20190411 17:12:07.402" critical="yes">FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\RobotProject\\data.csv'</status>
+</test>
+<status status="FAIL" starttime="20190411 17:12:07.387" endtime="20190411 17:12:07.403"></status>
+</suite>
+<status status="FAIL" starttime="20190411 17:12:07.385" endtime="20190411 17:12:07.404"></status>
+</suite>
+<status status="FAIL" starttime="20190411 17:12:07.383" endtime="20190411 17:12:07.405"></status>
+</suite>
+<status status="FAIL" starttime="20190411 17:12:07.382" endtime="20190411 17:12:07.405"></status>
+</suite>
+<status status="FAIL" starttime="20190411 17:12:07.379" endtime="20190411 17:12:07.406"></status>
+</suite>
+<status status="FAIL" starttime="20190411 17:12:07.359" endtime="20190411 17:12:07.407"></status>
 </suite>
 <statistics>
 <total>
@@ -251,6 +226,7 @@
 <stat pass="0" fail="1">All Tests</stat>
 </total>
 <tag>
+<stat pass="0" fail="1">file-reading</stat>
 </tag>
 <suite>
 <stat pass="0" fail="1" id="s1" name="RobotProject">RobotProject</stat>
@@ -258,25 +234,10 @@
 <stat pass="0" fail="1" id="s1-s1-s1" name="Src">RobotProject.RobotProject.Src</stat>
 <stat pass="0" fail="1" id="s1-s1-s1-s1" name="Test">RobotProject.RobotProject.Src.Test</stat>
 <stat pass="0" fail="1" id="s1-s1-s1-s1-s1" name="Java">RobotProject.RobotProject.Src.Test.Java</stat>
-<stat pass="0" fail="1" id="s1-s1-s1-s1-s1-s1" name="Com">RobotProject.RobotProject.Src.Test.Java.Com</stat>
-<stat pass="0" fail="1" id="s1-s1-s1-s1-s1-s1-s1" name="Robot">RobotProject.RobotProject.Src.Test.Java.Com.Robot</stat>
-<stat pass="0" fail="1" id="s1-s1-s1-s1-s1-s1-s1-s1" name="Tests">RobotProject.RobotProject.Src.Test.Java.Com.Robot.Tests</stat>
-<stat pass="0" fail="1" id="s1-s1-s1-s1-s1-s1-s1-s1-s1" name="RobotProject">RobotProject.RobotProject.Src.Test.Java.Com.Robot.Tests.RobotProject</stat>
-<stat pass="0" fail="1" id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s1" name="Tests">RobotProject.RobotProject.Src.Test.Java.Com.Robot.Tests.RobotProject.Tests</stat>
-<stat pass="0" fail="1" id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s1-s1" name="PostTest">RobotProject.RobotProject.Src.Test.Java.Com.Robot.Tests.RobotProject.Tests.PostTest</stat>
+<stat pass="0" fail="1" id="s1-s1-s1-s1-s1-s1" name="Testdata">RobotProject.RobotProject.Src.Test.Java.Testdata</stat>
+>>>>>>> 1e5c9a94f1e714643fb524e5060252666988a9d8
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20190416 14:47:10.226" level="ERROR">Error in file 'C:\Users\InternDN19.01.02\eclipse-workspace\RobotProject\RobotProject\src\test\java\com\robot\tests\RobotProject\Resources\Libraries.robot': Importing test library 'PageObjectLibrary' failed: ModuleNotFoundError: No module named 'PageObjectLibrary'
-Traceback (most recent call last):
-  None
-PYTHONPATH:
-  C:\Users\InternDN19.01.02\eclipse-workspace\RobotProject
-  C:\Users\InternDN19.01.02\AppData\Local\Programs\Python\Python37-32\python37.zip
-  C:\Users\InternDN19.01.02\AppData\Local\Programs\Python\Python37-32\DLLs
-  C:\Users\InternDN19.01.02\AppData\Local\Programs\Python\Python37-32\lib
-  C:\Users\InternDN19.01.02\AppData\Local\Programs\Python\Python37-32
-  C:\Users\InternDN19.01.02\AppData\Roaming\Python\Python37\site-packages
-  C:\Users\InternDN19.01.02\AppData\Local\Programs\Python\Python37-32\lib\site-packages</msg>
 </errors>
 </robot>
