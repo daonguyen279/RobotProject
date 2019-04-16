@@ -1,6 +1,6 @@
 *** Variables ***
 ${BROWSER}    Chrome
-${ROOT}       https://petshop.vn/
+${ROOT}       http://localhost/wordpress/wp-admin/
 
 
 *** Settings ***
@@ -13,6 +13,7 @@ Setup
     Log To Console                    ${PATH}   
     Append To Environment Variable    ${PATH}           ${PATH}
     Open browser                      ${ROOT}           ${BROWSER}
+    Maximize Browser Window
 
 Teardown    
     Close all browsers
