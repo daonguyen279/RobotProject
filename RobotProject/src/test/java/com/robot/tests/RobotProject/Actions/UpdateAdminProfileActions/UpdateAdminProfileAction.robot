@@ -3,7 +3,6 @@ Resource                       ../../Resources/Setup.robot
 Resource                       ../../Pages/ProfileAdminPage.robot
 Resource                       ../../Pages/HomePage.robot
 Resource                       ../../Actions/CommonActions/SelectMenuAction.robot
-Resource                       ../../Actions/CommonActions/LogoutAction.robot
 
 
 *** Keywords ***
