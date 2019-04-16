@@ -1,17 +1,17 @@
 *** Settings ***
-Resource	../../Resources/Setup.robot
+Resource                   ../../Resources/Setup.robot
 
 *** Variables ***
 
-${firstname_field}            id=first_name
-${lastname_field}             id=last_name
-${nickname_field}             id=nickname
-${displayname_field}          name=display_name
-${email_field}                id=email
-${webstite_field}             id=url
-${biographical Info_field}    id=description
-${generatepassword_button}    xpath= //table[@class="form-table"]/tbody/tr[@id="password"]/td/button
-${generatepassword_field}     id=pass1-text
-${updateprofile_button}       id=submit
+${txt_firstname}           id=first_name
+${txt_lastname}            id=last_name
+${txt_nickname}            id=nickname
+${txt_displayname}         name=display_name
+${txt_email}               id=email
+${txt_webstite}            id=url
+${txt_biographicalinfo}    id=description
+${btn_generatepassword}    xpath= //table[@class="form-table"]/tbody/tr[@id="password"]/td/button
+${txt_generatepassword}    id=pass1-text
+${btn_updateprofile}       id=submit
 
 
